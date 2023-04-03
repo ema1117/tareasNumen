@@ -1,4 +1,4 @@
-/*normalizo el estilo*/
+/****************************normalizo el estilo****************/
 *{
     margin: 0;
     padding: 0;
@@ -7,15 +7,62 @@
 
 /* font-family: 'Inter', sans-serif; */
 
-/**/
+/************************estilo de la estructura***************/
+/*aplico la fuente*/
 body{
     font-family: 'Inter', sans-serif;
 }
 
-h3{
-    font-weight: 700;
+
+/*aplico fondo de header y color de letra*/ 
+header{
+    background-color: rgb(199, 159, 39);
+    color: azure;
+    
 }
 
-p{
-    font-weight:400;
+/*cambio el color de letra a los links del header*/
+header a{
+    color: azure;
+     
 }
+
+/*color del fondo del footer*/
+footer{
+    background-color:rgb(199, 159, 39);
+    
+}
+/*color de letras de link del footer*/
+footer a{
+    color: azure;
+}
+
+/********************estilo del frm***************************/
+/*color de fondo del frm*/
+form{
+    background-color: #ebe1c5;
+}
+
+/*letra mas grande para los btns*/
+form input[type="submit"], form input[type="reset"] {
+    font-size: medium;
+} 
+
+/*agrando la fuente y pongo negrita en el legend*/
+legend{
+    font-weight: 700; 
+    font-size: large;    
+}
+
+/*************************clases*****************************/
+/*clase para subrayar un texto*/
+.subrayado{
+    text-decoration: underline;
+}
+
+/*clases para poner un fondo claro*/
+.fondoClaro{
+    background-color: #ebe1c5;
+}
+
+
