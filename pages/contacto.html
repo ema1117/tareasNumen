@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>contacto</title>
+    </head>
+    <body>
+        <header>
+                                  
+            <a href="../index.html">Index</a>
+            <h1>formulario de suscripcion</h1>  
+        </header>
+        <hr>
+        <body>
+
+            <!--formulario de suscripcion -->
+            <form action="" method="post">
+                <fieldset>
+
+                    <legend>Datos Personales</legend>
+                     
+                    <!-- input ingreso de nombre -->
+                    <label for="nombre">
+                        <span>Nombre completo:</span>
+                        <input type="text" id="nombre" placeholder="ingrese su nombre" required >
+                    </label>
+                    <hr>
+
+                    <!-- div para agrupar los chk de intereses -->
+                    <div>                    
+                        <label>Generos de Peliculas de su preferencia:</label>
+                        <div>
+                            <input type="checkbox" id="terror" name="terror" checked>
+                            <label for="terror">Terror</label>
+                        </div>
+                    
+                        <div>
+                            <input type="checkbox" id="comedia" name="comedia">
+                            <label for="comedia">Comedias</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="dramas" name="dramas">
+                            <label for="dramas">Dramas</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="ciendia" name="ciencia">
+                            <label for="ciencia">Ciencia Ficcion</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="documentales" name="documentales">
+                            <label for="documentales">Documentales</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="animadas" name="animadas">
+                            <label for="animadas">Animadas</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="infantiles" name="infantiles">
+                            <label for="infantiles">Infantiles</label>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <!-- input ingreso mail -->                    
+                    <label for="mail">mail:</label>
+                    <input type="email" name="mail" id="mail" placeholder="mail@mail.com" required>
+                    <hr>
+
+                    <!--chk acpeta terminos y condiciones-->
+                    <label for="acepta">*acepta los terminos y condiciones para recibir nuestra informacion </label>
+                    <input type="checkbox" name="" id="acepta"  required>
+                    <hr>
+
+                    <!--btn enviar frm y reset de frm-->
+                    <input type="submit">
+                    <input type="reset" value="reset">
+
+                </fieldset>
+
+            </form>    
+
+
+
+
+
+        </body>
+
+        <footer>
+
+
+        </footer>
+
+
+
+
+    </body>
+
+
+</html>
