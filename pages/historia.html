@@ -4,32 +4,54 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/styles.css">
         <title>historia</title>
     </head>
     <body>
-        <header>
-            <a href="../index.html">Inicio</a>        
+        <header class="header-no-index">
+
+            <div>
+                <!-- imagen del header -->
+                <div class="display-enlinea posicion-relativa">
+                    <a href="../index.html"><img class="img-header" src="../assets/img/logo-oscars.png" alt="imagen premio oscar" width="100" height="100"></a>
+                </div>    
+
+                <!-- menu del header -->
+                <nav class="display-enlinea formato-menu">
+                    <ul class="display-enlinea margen-ul">
+                        <!-- elementos del muenu  -->
+                        <li class="display-enlinea"><a href="../index.html">Inicio</a></li>
+                        <li class="display-enlinea"><a href="historia.html">Historia de los premios</a></li>
+                        <li class="display-enlinea"><a href="ultimaentrega.html">Ganadores ultima entrega</a></li>
+                        <li class="display-enlinea"><a href="proximoseventos.html">Proximos eventos</a></li>
+                        <li class="display-enlinea"><a href="tienda.html">Tienda</a></li>
+                        <li class="display-enlinea"><a href="contacto.html">Contacto</a></li>
+                    </ul>    
+                </nav>  
+            </div>       
         </header>
-        <hr>
-        <main class="fondoClaro">
+        
+        <main class="fondoClaro altura-main-780">
             <h2>historia de los premios</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente porro facilis possimus sed culpa, aperiam consequuntur? Ad voluptatibus necessitatibus similique aperiam doloremque neque impedit facilis aliquam maxime qui. Porro, accusantium?</p>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus non labore quibusdam ut, voluptas quia adipisci vitae quisquam, reiciendis mollitia numquam doloremque facere modi magnam unde quidem quo perspiciatis aut?</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nesciunt aliquam nobis mollitia! Mollitia qui earum necessitatibus porro repellendus illo quos quod vero optio nostrum. Nesciunt autem magnam eligendi nulla.</p>
         
         </main>
-        <hr>
+      
         <footer>
-            <ul>
-                <!-- redes sociales pie -->
-                <li><a href="https://facebook.com" target="_blank" >Facebook</a></li>
-                <li><a href="https://instagram.com"  target="_blank">Instagram</a></li>
-                <li><a href="https://linkedin.com"  target="_blank">LinkedIn</a></li>
-            </ul>
-    
+            <div>
+                <p class="display-enlinea">Academy Awards - Marca registrada</p>
+                <ul class="display-enlinea">
+                    <!-- redes sociales pie -->
+                    <li class="display-enlinea "><a  href="https://facebook.com" target="_blank" ><img class="img-header" src="../assets/img/Logo_de_Facebook.png" alt="imagen facebook" width="30" height="30"></a></li>
+                    <li class="display-enlinea"><a   href="https://instagram.com"  target="_blank"><img class="img-header" src="../assets/img/instagram.png" alt="imagen instagram" width="30" height="30"></a></li>
+                    <li class="display-enlinea  "><a  href="https://linkedin.com"  target="_blank"><img class="img-header" src="../assets/img/linkedin.png" alt="imagen linkedin" width="30" height="30"></a></li>
+                </ul>
+            </div>
         </footer>
 
     </body>
