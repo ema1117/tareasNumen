@@ -148,11 +148,18 @@ fieldset label{
 
 
 /*clases para poner un fondos*/
-.fondoClaro{
-        background: linear-gradient(90deg, rgba(250,250,250,1) 0%, rgba(199,170,102,1) 100%);
+.fondo-claro-gradiante{
+        background: linear-gradient(90deg, rgba(248, 244, 236,1) 0%, rgba(199,170,102,1) 100%);
 }
 
+ 
+.fondo-claro{
+    background-color: #F8F4EC;
+}
 
+.fondo-blanco{
+    background-color: white;
+}
 
 /*clases para los elementos de las paginas*/
 .header-index{
@@ -204,16 +211,76 @@ fieldset label{
 }
 
 .div-blanco ul li{
-   margin-bottom: 5px;
+   margin-bottom: 8px;
    list-style: none;
 }
 
 .div-blanco ul li u{
     font-size: large;
 }
-/*margen para lista*/
+
+
 .margen-ul{
     margin-bottom: 50px;
+}
+
+.busqueda-eventos{
+    width: 80%;    
+    margin-left: 130px;    
+    height: 100px;
+    background-color: white;
+    border: 2px solid rgb(199, 170, 102);
+    border-radius: 5px;
+
+}
+
+.frm-busqueda{
+    position: relative;
+    bottom: 30px;
+}
+
+.frm-busqueda input[type="text"]{
+    width: 700px;
+    height: 40px;
+     border: 1px solid rgb(199, 170, 102);
+    background-color: #F8F4EC ;
+}
+
+.frm-busqueda button{
+    width: 200px;
+    border-radius: 3px;
+    height: 40px;
+    border: 1px solid black;
+    
+}
+
+.frm-busqueda button:hover{
+    font-weight: bold;
+  
+}
+
+.contenedor-eventos{
+    width: 80%;    
+    margin-left: 130px; 
+    margin-top: 10px;
+    padding: 20px;   
+    height: 620px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgb(199, 170, 102);
+}    
+
+.contenedor-eventos ul{
+    font-size: 20px;
+
+}
+
+.section-historia{
+    border:1px solid black;
+    padding:  15px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgb(199, 170, 102);
 }
 
 /*clse para poner display en linea*/
@@ -245,7 +312,9 @@ fieldset label{
     border: 5px outset rgb(199, 170, 102) ;
 }
 
- 
+.borde{
+    border: 1px solid rgb(199, 170, 102);
+}
 
  
  /*clases para texto*/
@@ -265,6 +334,13 @@ fieldset label{
     text-decoration: underline;
 }
 
+.tamaño-fuente-20{
+    font-size: 20px;
+}
+
+.negrita{
+    font-weight: bold;
+}
 
 /*clases para tamaño  */
  .tamaño-40{
@@ -290,16 +366,32 @@ fieldset label{
     margin-left: 40px;
 }
 
+.margen-izquierdo-20{
+    margin-left: 20px;
+}
+
 .margen-derecho{
     margin-right: 40px;
 }
 
-.pading-abajo-25{
-    padding-bottom: 25px;
-}
-
 .margen-abajo{
     margin-bottom: 20px;
+}
+
+.margen-arriba{
+    margin-top: 20px;
+}
+
+.margen-arriba-10{
+   margin-top: 10px;
+}
+
+.margen-arriba-40{
+    margin-top: 40px;
+}
+
+.pading-abajo-25{
+    padding-bottom: 25px;
 }
 
 .pading-abajo-40{
@@ -310,6 +402,52 @@ fieldset label{
      padding-top: 20px;
  }
 
- .margen-arriba{
-     margin-top: 20px;
+ .padding-izquierdo-20{
+     padding-left: 20px;
+ }
+
+ /*Clases para las cards*/
+
+ .card{
+     padding: 20px;
+     height:375px;
+     width:300px;
+     border: 1px solid rgb(199, 170, 102);
+     box-shadow: 4px 4px 2px rgb(199, 170, 102);
+     border-radius: 5px;
+     text-align: center;
+     background-color: white;
+    
+ }
+
+ .card-image{
+     margin: 0 0 10px 20px;
+     height: 175px;
+     width: 220px;
+     object-fit: cover;
+ }
+
+ .card-data{    
+     font-size: 1rem;
+     color: black;
+ }
+
+ .card-title{
+     font-weight: bold;
+ }
+ .card-button{
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color:black;
+    cursor: pointer;
+    font-size: 1rem;
+
+ }
+
+ .card-button:hover{
+     font-weight: bold;
+   
  }
