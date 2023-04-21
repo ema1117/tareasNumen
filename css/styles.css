@@ -65,14 +65,15 @@ footer a{
 /* propoedades parrafos del footer*/
 footer p{
     position: relative;
-    left: 850px;
+    margin-left: 40%; 
     bottom: 10px;
+    
 }
 
 /* porpiedades listas del footer*/
 footer ul{
     position: relative;
-    left: 1200px;
+     
 }
 
 /*porpiedades de los section*/
@@ -172,7 +173,7 @@ fieldset label{
 }
 
 .main-index{
-    height: 1900px;
+    height: 2200px;
 }
 
 
@@ -182,14 +183,14 @@ fieldset label{
 
 .img-header{
     position: relative;
-    border-radius: 50%;
-    left: 130px;
+    border-radius: 150px;
+    left: 50px;
   
 } 
 
 .formato-menu{
-    position: relative;
-    left: 750px;
+    position: relative;    
+    left: 10%;
     bottom: 50px;
  
 }
@@ -202,7 +203,7 @@ fieldset label{
 }
 
 .div-blanco{
-    background-color: white;
+    background-color: #F1EAD9;
     padding-bottom: 20px;
     width: 80%;
     border-radius: 5px;
@@ -228,7 +229,7 @@ fieldset label{
     width: 80%;    
     margin-left: 130px;    
     height: 100px;
-    background-color: white;
+    background-color: #F1EAD9;
     border: 2px solid rgb(199, 170, 102);
     border-radius: 5px;
 
@@ -266,7 +267,7 @@ fieldset label{
     padding: 20px;   
     height: 620px;
     border-radius: 5px;
-    background-color: white;
+    background-color: #F1EAD9;
     border: 1px solid rgb(199, 170, 102);
 }    
 
@@ -279,7 +280,7 @@ fieldset label{
     border:1px solid black;
     padding:  15px;
     border-radius: 5px;
-    background-color: white;
+    background-color: #F1EAD9;
     border: 1px solid rgb(199, 170, 102);
 }
 
