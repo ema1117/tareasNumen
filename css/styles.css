@@ -16,8 +16,8 @@ body{
 
 /*aplico fondo de header y color de letra*/ 
 header{
-    border-bottom:  2px solid rgb(199, 170, 102);;
    
+    border-bottom:  2px solid rgb(199, 159, 39);   
     color: azure;
     
 }
@@ -25,7 +25,7 @@ header{
 /*propiedades h1*/
 h1{
     font-size: 65px;
-    text-shadow: 4px 4px 2px rgb(199, 170, 102);
+    text-shadow: 4px 4px 2px rgb(199, 159, 39);
     font-family: 'Anton', sans-serif;
     letter-spacing: 3px;
 }
@@ -36,8 +36,13 @@ header a{
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-    margin-right: 15px;
+    
      
+}
+
+header a:hover{
+     
+    text-shadow: 1px 1px 1px rgb(199, 159, 39);
 }
 
 /*propiedades arrafos del header*/
@@ -49,44 +54,36 @@ header p{
 
 /*propiedades footer*/
 footer{
-    border-top: 2px solid rgb(199, 170, 102);
-    background-color:rgb(225, 201, 131);
+    border-top: 2px solid rgb(199, 159, 39);
+   /* background-color:rgb(225, 201, 131);*/
+    background: linear-gradient(90deg, rgb(248, 243, 228) 0%, rgb(199, 159, 39) 100%);
     height: 85px;
-    padding-top:20px ;
+    
     
     
 }
 /*color de letras de link del footer*/
 footer a{
     color: azure;
-    margin-right: 10px;
-}
-
-/* propoedades parrafos del footer*/
-footer p{
-    position: relative;
-    margin-left: 40%; 
-    bottom: 10px;
     
 }
 
-/* porpiedades listas del footer*/
 footer ul{
-    position: relative;
-     
+    list-style: none;
 }
+
 
 /*porpiedades de los section*/
 section{
-    margin: 0px 40px;
-    padding: 40px 0px;
+   
+    padding: 20px 0px;
 
 }
 
 /*propiedades h3 de los section*/
 section h3{
     font-size: 25px;
-margin-bottom: 10px;
+ 
 }
 
 /*propiedades de los articles*/
@@ -96,13 +93,13 @@ article{
 
 /*propiedades de los parafos de los articles*/
 article p{
+    font-size: 16px;
+}
+
+article h3{
     font-size: 20px;
 }
 
-/*propiedades imagenes del main*/
-main img{
-    margin: 20px;
-}
 /********************estilo del frm***************************/
 
 
@@ -155,7 +152,7 @@ fieldset label{
 
  
 .fondo-claro{
-    background-color: #F8F4EC;
+    background-color: #F8F3E4;
 }
 
 .fondo-blanco{
@@ -163,6 +160,82 @@ fieldset label{
 }
 
 /*clases para los elementos de las paginas*/
+
+/*clase para la imagen y el menu del header*/
+.header{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+
+
+/*clasee para la barra de navegacion*/
+.nav{
+    display: flex;
+    
+    align-items: center;
+    justify-content: end;
+    list-style: none;
+    gap: 20px;
+    padding-right: 30px;
+     
+}
+
+.a-seleccionado{
+     text-shadow: 1px 1px 1px rgb(199, 170, 102);
+}
+
+.div-tienda{
+    width: 100%;
+     padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.div-tienda form{
+    width: 70%;
+}
+
+/*clse para la galeria de la tienda*/
+.galeria{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 25px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+
+}
+
+.principal-index{
+   
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.foto-redonda{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+.imagen{
+    width: 100%;
+    object-fit: contain;
+ 
+}
+
 .header-index{
 
     width: 100%;
@@ -177,7 +250,7 @@ fieldset label{
 }
 
 
-.header-no-index{
+.background-header{
     background-image: url("../assets/img/fondo-header-no-index.png");
 }
 
@@ -197,8 +270,8 @@ fieldset label{
 
 .formulario-contacto{
     width: 60%;
-    margin-left: 350px;
-    padding: 20px;
+  
+   
 
 }
 
@@ -225,23 +298,21 @@ fieldset label{
     margin-bottom: 50px;
 }
 
-.busqueda-eventos{
-    width: 80%;    
-    margin-left: 130px;    
-    height: 100px;
-    background-color: #F1EAD9;
-    border: 2px solid rgb(199, 170, 102);
-    border-radius: 5px;
 
-}
 
 .frm-busqueda{
-    position: relative;
-    bottom: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+ 
 }
 
+
+
 .frm-busqueda input[type="text"]{
-    width: 700px;
+    width: 580px;
     height: 40px;
      border: 1px solid rgb(199, 170, 102);
     background-color: #F8F4EC ;
@@ -260,14 +331,46 @@ fieldset label{
   
 }
 
+.frm-busqueda img{
+   border-radius: 50%;
+  
+}
+
+
+.div-proximos{
+    width: 100%;
+    padding: 20px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+.busqueda-eventos{  
+    width: 70%; 
+    display: flex;
+    padding-left: 20px;
+   
+    height: 100px;
+    background-color: rgb(248, 243, 228);
+    border: 2px solid rgb(199, 170, 102);
+    border-radius: 5px;
+
+}
 .contenedor-eventos{
-    width: 80%;    
-    margin-left: 130px; 
-    margin-top: 10px;
-    padding: 20px;   
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px 40px;
+  
+    gap: 20px;
+    width: 70%; 
     height: 620px;
     border-radius: 5px;
-    background-color: #F1EAD9;
+    background-color:rgb(248, 243, 228);
     border: 1px solid rgb(199, 170, 102);
 }    
 
@@ -276,12 +379,45 @@ fieldset label{
 
 }
 
+.contenedor-ganadores{
+    width: 70%;
+    margin-top: 20PX;
+    margin-bottom: 60px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 20px;
+    
+
+}
+
+
 .section-historia{
-    border:1px solid black;
-    padding:  15px;
-    border-radius: 5px;
-    background-color: #F1EAD9;
-    border: 1px solid rgb(199, 170, 102);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+}
+
+.footer{
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.div-contacto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 768px;
+    gap: 25px;
+    padding-top: 20px;
+
 }
 
 /*clse para poner display en linea*/
@@ -289,7 +425,7 @@ fieldset label{
     display: inline;
 }
 
-/*clase para establecer posciones*/
+/*clase para establecer posciones y flex*/
 .posicion-absoluta{
     text-align: center;
     position: absolute;
@@ -301,10 +437,52 @@ fieldset label{
     position: relative;
 }
 
+.display-flex-row{   
+    display: flex;
+    flex-flow: row wrap;     
+    justify-content: center;
+    gap: 20px;
+}
 
 
+.display-flex-row-between{   
+    display: flex;
+    flex-flow: row wrap;     
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.display-flex-column{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.display-flex-column-gap-10{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.flex-centrado-columna{
+    align-items: center;
+  
+}
+
+.flex-principio-columna{
+    align-items: flex-start;
+  
+}
 
 /*clases para bordes*/
+.borde-negro{
+    border: 1px solid black;
+}
+
 .borde-inferior{
     border-bottom: 2px solid rgb(199, 170, 102);
 }
@@ -344,15 +522,27 @@ fieldset label{
 }
 
 /*clases para tamaño  */
- .tamaño-40{
-     width: 40%;
- }
+ 
  
  .altura-main-780{
     height: 780px;
 }
 
+.ancho-70{
+    width: 70%;
+}
 
+.ancho-100{
+    width: 100%;
+}
+
+.ancho-60{
+    width: 600px;
+}
+
+.ancho-300{
+    width: 400px;
+}
  /*clases para margenes y paddings*/
   
  .flotar-izquierda{
@@ -391,6 +581,10 @@ fieldset label{
     margin-top: 40px;
 }
 
+.margen-abajo-10{
+    margin-bottom: 10px;
+}
+
 .pading-abajo-25{
     padding-bottom: 25px;
 }
@@ -406,6 +600,14 @@ fieldset label{
  .padding-izquierdo-20{
      padding-left: 20px;
  }
+
+
+/*clases para color y fondos*/
+.color-dorado{
+    color: rgb(199, 170, 102);
+}
+
+
 
  /*Clases para las cards*/
 
@@ -452,3 +654,46 @@ fieldset label{
      font-weight: bold;
    
  }
+
+
+ /*card para los ganadores*/
+
+ .card-ganadores{
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid rgb(199, 159, 39);  
+    height:260px;
+    width:220px;
+   background-color:  rgb(248, 243, 228);
+    border-radius: 10px;
+    
+  
+   
+}
+
+
+.card-image-ganadores{
+    width: 100%;
+    height:150px;
+   
+   
+}
+
+.img-gana{
+    width: 90%;
+    height: 100%;
+    
+    border-radius: 5px;
+    
+}
+
+.card-data-ganadores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+     border-top: none;
+    /* background-color:  rgb(248, 243, 228);*/
+}

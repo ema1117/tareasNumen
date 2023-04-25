@@ -11,87 +11,95 @@
         <title>proximos eventos</title>
     </head>
     <body>
-        <header class="header-no-index">
+        <header >
             
-            <div>
+            <div class="background-header header">
                 <!-- imagen del header -->
-                <div class="display-enlinea posicion-relativa">
+                <div  >
                     <a href="../index.html"><img class="img-header" src="../assets/img/logo-oscars.png" alt="imagen premio oscar" width="100" height="100"></a>
                 </div>    
 
                 <!-- menu del header -->
-                <nav class="display-enlinea formato-menu">
-                    <ul class="display-enlinea margen-ul">
+                <nav  >
+                    <ul class="nav" >
                         <!-- elementos del muenu  -->
-                        <li class="display-enlinea"><a href="../index.html">Inicio</a></li>
-                        <li class="display-enlinea"><a href="historia.html">Historia de los premios</a></li>
-                        <li class="display-enlinea"><a href="ultimaentrega.html">Ganadores ultima entrega</a></li>
-                        <li class="display-enlinea"><a href="proximoseventos.html">Proximos eventos</a></li>
-                        <li class="display-enlinea"><a href="tienda.html">Tienda</a></li>
-                        <li class="display-enlinea"><a href="contacto.html">Contacto</a></li>
+                        <li ><a href="../index.html">Inicio</a></li>
+                        <li ><a href="historia.html">Historia de los premios</a></li>
+                        <li ><a href="ultimaentrega.html">Ganadores ultima entrega</a></li>
+                        <li class="borde-inferior" ><a class="a-seleccionado"  href="proximoseventos.html">Proximos eventos</a></li>
+                        <li ><a href="tienda.html">Tienda</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
                     </ul>    
                 </nav>  
             </div>   
         </header>
  
-        <main class="fondo-claro    padding-arriba-20 pading-abajo-25 ">
-            <div class="busqueda-eventos ">
-               
-                <img src="../assets/img/lupa.png" alt="imagen lupa" >
-
-                <form action=" " class="display-enlinea frm-busqueda  ">
-                    <label for="nombre-evento" class="">
-                        <input  type="text" name="nombre-evento" id="nombre-evento" placeholder="Nombre evento a buscar"> 
-                    </label>
-
-                    <button id="buscar">Buscar</button>
-
+        <main>
+            <div class="div-proximos">
+                <div class="borde-inferior color-dorado ancho-70 ">
+                    <h2 >PROXIMOS EVENTOS</h2>
+                </div>   
+                <div class="busqueda-eventos ">
                     
+                   
+                    
+                    <form action=" " class="frm-busqueda">
+                        <img src="../assets/img/lupa.png" alt="imagen lupa" >
+                        <label for="nombre-evento" class="">
+                            <input  type="text" name="nombre-evento" id="nombre-evento" placeholder="Nombre evento a buscar"> 
+                        </label>
+
+                        <button id="buscar">Buscar</button>
+
+                        
 
 
 
 
 
-                </form>
+                    </form>
 
-               
+                
+
+                </div>
+            
+                
+
+
+                <div class="contenedor-eventos">
+                   
+                    <ul class="margen-izquierdo margen-arriba-10">
+                        <li>
+                            <p >25 mayo, 2023 @ 8:00 am</p>
+                            <p class="negrita margen-arriba-10" >Inscripcion para premios Goya 2024 </p>
+                        </li>
+
+                        <li  class="margen-arriba-40">
+                            <p>9 junio, 2023 @ 8:00 am - 1 agosto, 2023 @ 11:00 pm</p>
+                            <p class="negrita margen-arriba-10">Festival de cine independiente de Venecia </p>
+                        </li>
+                        <li  class="margen-arriba-40">
+                            <p>15 octubre, 2023 @ 8:00 am - 22 octubre, 2023 @ 9:00 pm</p>
+                            <p class="negrita margen-arriba-10">Inscripcion peliculas premios Oscar 2024</p>
+
+                        </li>
+                        
+                    </ul>
+
+                </div>
 
             </div>
-           
-            <div class="contenedor-eventos">
-                <h2 >Proximos Eventos</h2>
-              <ul class="margen-izquierdo margen-arriba-40 ">
-                  <li>
-                      <p >25 mayo, 2023 @ 8:00 am</p>
-                      <p class="negrita margen-arriba-10" >Inscripcion para premios Goya 2024 </p>
-                  </li>
-
-                  <li  class="margen-arriba-40">
-                    <p>9 junio, 2023 @ 8:00 am - 1 agosto, 2023 @ 11:00 pm</p>
-                    <p class="negrita margen-arriba-10">Festival de cine independiente de Venecia </p>
-                  </li>
-                  <li  class="margen-arriba-40">
-                    <p>15 octubre, 2023 @ 8:00 am - 22 octubre, 2023 @ 9:00 pm</p>
-                    <p class="negrita margen-arriba-10">Inscripcion peliculas premios Oscar 2024</p>
-
-                  </li>
-                 
-              </ul>
-
-            </div>
-
-
             
         </main>
        
         <footer>
-            <div>
-                <p class="display-enlinea">Academy Awards - Marca registrada</p>
-                <ul class="display-enlinea">
+            <div class="footer">
+                <p >Academy Awards - Marca registrada</p>
+                <ul class="display-flex-row" >
                     <!-- redes sociales pie -->
-                    <li class="display-enlinea "><a  href="https://facebook.com" target="_blank" ><img class="img-header" src="../assets/img/Logo_de_Facebook.png" alt="imagen facebook" width="30" height="30"></a></li>
-                    <li class="display-enlinea"><a   href="https://instagram.com"  target="_blank"><img class="img-header" src="../assets/img/instagram.png" alt="imagen instagram" width="30" height="30"></a></li>
-                    <li class="display-enlinea  "><a  href="https://linkedin.com"  target="_blank"><img class="img-header" src="../assets/img/linkedin.png" alt="imagen linkedin" width="30" height="30"></a></li>
+                    <li  ><a  href="https://facebook.com" target="_blank" ><img class="img-header"  src="../assets/img/Logo_de_Facebook.png" alt="imagen facebook" width="30" height="30"></a></li>
+                    <li  ><a   href="https://instagram.com"  target="_blank"><img  class="img-header"  src="../assets/img/instagram.png" alt="imagen instagram" width="30" height="30"></a></li>
+                    <li ><a  href="https://linkedin.com"  target="_blank"><img class="img-header"  src="../assets/img/linkedin.png" alt="imagen linkedin" width="30" height="30"></a></li>
                 </ul>
             </div>
         </footer>

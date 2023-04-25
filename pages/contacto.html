@@ -11,127 +11,132 @@
         <title>contacto</title>
     </head>
     <body>
-        <header class="header-no-index">
+        <header>
                                   
-            <div>
+            <div class="background-header header">
                 <!-- imagen del header -->
-                <div class="display-enlinea posicion-relativa">
+                <div>
                     <a href="../index.html"><img class="img-header" src="../assets/img/logo-oscars.png" alt="imagen premio oscar" width="100" height="100"></a>
                 </div>    
 
                 <!-- menu del header -->
-                <nav class="display-enlinea formato-menu">
-                    <ul class="display-enlinea margen-ul">
+                <nav>
+                    <ul class="nav">
                         <!-- elementos del muenu  -->
-                        <li class="display-enlinea"><a href="../index.html">Inicio</a></li>
-                        <li class="display-enlinea"><a href="historia.html">Historia de los premios</a></li>
-                        <li class="display-enlinea"><a href="ultimaentrega.html">Ganadores ultima entrega</a></li>
-                        <li class="display-enlinea"><a href="proximoseventos.html">Proximos eventos</a></li>
-                        <li class="display-enlinea"><a href="tienda.html">Tienda</a></li>
-                        <li class="display-enlinea"><a href="contacto.html">Contacto</a></li>
+                        <li ><a href="../index.html">Inicio</a></li>
+                        <li ><a href="historia.html">Historia de los premios</a></li>
+                        <li ><a href="ultimaentrega.html">Ganadores ultima entrega</a></li>
+                        <li ><a href="proximoseventos.html">Proximos eventos</a></li>
+                        <li ><a href="tienda.html">Tienda</a></li>
+                        <li class="borde-inferior"><a class="a-seleccionado"  href="contacto.html">Contacto</a></li>
                     </ul>    
                 </nav>  
             </div>  
              
         </header>
          
-        <main class=" fondo-claro   pading-abajo-25 altura-main-780">
-            <h1 class="centrar padding-arriba-20">Formulario de suscripcion</h1> 
-            <!--formulario de suscripcion -->
-            <form class="formulario-contacto" action="" method="post">
-                <fieldset>
+        <main >
+            <div class="div-contacto">
+                <h2 class="borde-inferior color-dorado ancho-70">Formulario de suscripcion</h2> 
+                <!--formulario de suscripcion -->
+                <form class="formulario-contacto" action="" method="post">
+                    <fieldset >
 
-                    <legend class="centrado-principio">Datos Personales</legend>
-                     
-                    <!-- input ingreso de nombre -->
-                    <label  for="nombre" >
-                        <span>Nombre completo:</span>
-                        <input class="margen-abajo" type="text" id="nombre" placeholder="ingrese su nombre" required >
-                    </label>
-                     
+                            <legend class="centrado-principio">Datos Personales</legend>
+                            
+                            <div class="display-flex-column  flex-centrado-columna">
+                                <!-- input ingreso de nombre -->
+                                <label  for="nombre" >
+                                    <span>Nombre completo:</span>
+                                    <input  type="text" id="nombre" placeholder="ingrese su nombre" required >
+                                </label>
+                                
 
-                    <!-- div para agrupar los chk de intereses -->
-                    <div class="margen-abajo">                    
-                        <label>Generos de Peliculas de su preferencia:</label>
-                        <div class="">
-                            <div  ">
-                                <input type="checkbox" id="terror" name="terror" checked>
-                                <label for="terror">Terror</label>
+                                <!-- div para agrupar los chk de intereses -->
+                                <div class="display-flex-column  ancho-70">                    
+                                    <label>Generos de Peliculas de su preferencia:</label>
+                                    <div class=" display-flex-column  flex-centrado-columna">
+                                        <div class="display-flex-column-gap-10   ">
+                                            <div >
+                                                <input type="checkbox" id="terror" name="terror" checked>
+                                                <label for="terror">Terror</label>
+                                            </div>
+                                        
+                                            <div>
+                                                <input type="checkbox" id="comedia" name="comedia">
+                                                <label for="comedia">Comedias</label>
+                                            </div>
+
+                                            <div>
+                                                <input type="checkbox" id="dramas" name="dramas">
+                                                <label for="dramas">Dramas</label>
+                                            </div>
+
+                                            <div>
+                                                <input type="checkbox" id="ciendia" name="ciencia">
+                                                <label for="ciencia">Ciencia Ficcion</label>
+                                            </div>
+
+                                            <div>
+                                                <input type="checkbox" id="documentales" name="documentales">
+                                                <label for="documentales">Documentales</label>
+                                            </div>
+
+                                            <div>
+                                                <input type="checkbox" id="animadas" name="animadas">
+                                                <label for="animadas">Animadas</label>
+                                            </div>
+
+                                            <div>
+                                                <input type="checkbox" id="infantiles" name="infantiles">
+                                                <label for="infantiles">Infantiles</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+
+                                <!-- input ingreso mail --> 
+                                <div  >                
+                                    <label for="mail">mail:</label>
+                                    <input  type="email" name="mail" id="mail" placeholder="mail@mail.com" required>
+                                </div>   
+
+                                <!--chk acpeta terminos y condiciones-->
+                                <div > 
+                                    <label for="acepta" class="subrayado">*acepta los terminos y condiciones para recibir nuestra informacion </label>
+                                    <input   type="checkbox" name="" id="acepta"  required>
+                                </div>  
+
+                                <!--btn enviar frm y reset de frm-->
+                                <div  >
+                                    <input type="submit">
+                                    <input type="reset" value="Reset">
+                                </div>  
+                            
                             </div>
-                        
-                            <div>
-                                <input type="checkbox" id="comedia" name="comedia">
-                                <label for="comedia">Comedias</label>
-                            </div>
+                    </fieldset>
 
-                            <div>
-                                <input type="checkbox" id="dramas" name="dramas">
-                                <label for="dramas">Dramas</label>
-                            </div>
-
-                            <div>
-                                <input type="checkbox" id="ciendia" name="ciencia">
-                                <label for="ciencia">Ciencia Ficcion</label>
-                            </div>
-
-                            <div>
-                                <input type="checkbox" id="documentales" name="documentales">
-                                <label for="documentales">Documentales</label>
-                            </div>
-
-                            <div>
-                                <input type="checkbox" id="animadas" name="animadas">
-                                <label for="animadas">Animadas</label>
-                            </div>
-
-                            <div>
-                                <input type="checkbox" id="infantiles" name="infantiles">
-                                <label for="infantiles">Infantiles</label>
-                            </div>
-                        </div>
-                    </div>
-                
-
-                    <!-- input ingreso mail --> 
-                    <div class="margen-abajo">                
-                        <label for="mail">mail:</label>
-                        <input  type="email" name="mail" id="mail" placeholder="mail@mail.com" required>
-                    </div>   
-
-                    <!--chk acpeta terminos y condiciones-->
-                    <div class="margen-abajo centrar"> 
-                        <label for="acepta" class="subrayado">*acepta los terminos y condiciones para recibir nuestra informacion </label>
-                        <input   type="checkbox" name="" id="acepta"  required>
-                    </div>  
-
-                    <!--btn enviar frm y reset de frm-->
-                    <div class="centrar">
-                        <input type="submit">
-                        <input type="reset" value="Reset">
-                    </div>   
-                </fieldset>
-
-            </form>    
+                </form>    
 
 
 
-
+        </div>        
 
         </main>
 
        
-        <footer class="footer-no-index">
-            <div>
-                <p class="display-enlinea">Academy Awards - Marca registrada</p>
-                <ul class="display-enlinea">
+        <footer>
+            <div class="footer">
+                <p >Academy Awards - Marca registrada</p>
+                <ul class="display-flex-row" >
                     <!-- redes sociales pie -->
-                    <li class="display-enlinea "><a  href="https://facebook.com" target="_blank" ><img class="img-header" src="../assets/img/Logo_de_Facebook.png" alt="imagen facebook" width="30" height="30"></a></li>
-                    <li class="display-enlinea"><a   href="https://instagram.com"  target="_blank"><img class="img-header" src="../assets/img/instagram.png" alt="imagen instagram" width="30" height="30"></a></li>
-                    <li class="display-enlinea  "><a  href="https://linkedin.com"  target="_blank"><img class="img-header" src="../assets/img/linkedin.png" alt="imagen linkedin" width="30" height="30"></a></li>
+                    <li  ><a  href="https://facebook.com" target="_blank" ><img class="img-header"  src="../assets/img/Logo_de_Facebook.png" alt="imagen facebook" width="30" height="30"></a></li>
+                    <li  ><a   href="https://instagram.com"  target="_blank"><img  class="img-header"  src="../assets/img/instagram.png" alt="imagen instagram" width="30" height="30"></a></li>
+                    <li ><a  href="https://linkedin.com"  target="_blank"><img class="img-header"  src="../assets/img/linkedin.png" alt="imagen linkedin" width="30" height="30"></a></li>
                 </ul>
             </div>
         </footer>
-
     
 
 

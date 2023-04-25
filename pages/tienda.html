@@ -12,23 +12,23 @@
         <title>tienda</title>
     </head>
     <body>
-        <header class="header-no-index">
-            <div>
+        <header >
+            <div class="background-header header">
                 <!-- imagen del header -->
-                <div class="display-enlinea posicion-relativa">
+                <div  >
                     <a href="../index.html"><img class="img-header" src="../assets/img/logo-oscars.png" alt="imagen premio oscar" width="100" height="100"></a>
                 </div>    
 
                 <!-- menu del header -->
-                <nav class="display-enlinea formato-menu">
-                    <ul class="display-enlinea margen-ul">
+                <nav  >
+                    <ul class="nav">
                         <!-- elementos del muenu  -->
-                        <li class="display-enlinea"><a href="../index.html">Inicio</a></li>
-                        <li class="display-enlinea"><a href="historia.html">Historia de los premios</a></li>
-                        <li class="display-enlinea"><a href="ultimaentrega.html">Ganadores ultima entrega</a></li>
-                        <li class="display-enlinea"><a href="proximoseventos.html">Proximos eventos</a></li>
-                        <li class="display-enlinea"><a href="tienda.html">Tienda</a></li>
-                        <li class="display-enlinea"><a href="contacto.html">Contacto</a></li>
+                        <li  ><a href="../index.html">Inicio</a></li>
+                        <li  ><a href="historia.html">Historia de los premios</a></li>
+                        <li  ><a href="ultimaentrega.html">Ganadores ultima entrega</a></li>
+                        <li  ><a href="proximoseventos.html">Proximos eventos</a></li>
+                        <li  class="borde-inferior" ><a class="a-seleccionado"  href="tienda.html">Tienda</a></li>
+                        <li  ><a href="contacto.html">Contacto</a></li>
                     </ul>    
                 </nav>  
             </div>   
@@ -36,125 +36,126 @@
             
         </header>
          
-        <main class="fondo-claro ">
-            <h1 class="centrar padding-arriba-20">Gifts y mas... </h1>
-            <!--  frm contenedora de las cards -->
-            <form action=" " method="post">
-                <h2 class="margen-izquierdo">Elija sus productos</h2>
+        <main >
+            <div class="div-tienda">
+                
+                <!--  frm contenedora de las cards -->
+                <form action=" " method="post">
+                    <h2 class= "borde-inferior color-dorado">Elija sus productos</h2>
 
-                <!--div contenedora de las cards-->
-                <div>
+                    <!--div contenedora de las cards-->
+                    <div class="galeria">
 
-                    <!-- primera card -->
-                    <section>
-                        <!-- div contenedora de la 1 card -->
-                        <div class="card">
-                            <!-- div img de la 1 card -->
-                            <div class="card-image">
-                                <img  src="../assets/img/llaverooscarchico.jpg" alt="llavero oscar" width="100" height="150">
-                            </div>
-                             <!-- datosde la 1 card -->
-                            <div class="card-data  ">
-                                <h3 class="card-title">Llavero Mini Oscar</h3>
-                                <p>Llavero miniatura de premios oscar de bronce, con tu nombre impreso</p>
-                                <input class="card-button" type="button" name="llavero" value="comprar">
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- segunda card-->                 
-                    <section > 
-                        <!-- div contenedora de la 2 card -->
-                        <div class="card">
-                            <!-- div img de la 2 card -->
-                            <div class="card-image">
-                                
-                                <img src="../assets/img/posterOscarChico.jpg" alt="poster oscar" width="150" height="150">
-                            </div>
-                            <!-- contenido de la 2 card -->
-                            <div class="card-data"> 
-                                <h3 class="card-title">Poster Oscars</h3>
-                                <p>Poster de los premios oscar hecho de cartulina y forrado en film protector</p>
-                                <input class="card-button" type="button" name="poster" value="comprar">
-                            </div>
-                        </div>
-                    </section>
-
-
-                     <!-- CARD 3 -->
-                    <section > 
-                        <!-- div contenedora de la 3 card -->
-                        <div class="card">
-                            <!-- div img de la 3 card -->
-                            <div class="card-image">
-                                
-                                <img src="../assets/img/remeraOscars.png" alt="remera oscar" width="150" height="150">
-                            </div>  
-                            <!-- contenido de la 3 card -->
-                            <div class="card-data" > 
-                                <h3 class="card-title">Remera Oscars</h3>
-                                <p>Remera estampada de los oscars,10 modelos distinto, todos los talles</p>
-                                <input class="card-button"  type="button" name="remera" value="comprar">
-                            </div>
-                        </div>
-                    </section>   
-
-                       <!-- CARD 4 -->
-                       <section > 
-                        <!-- div contenedora de la 4 card -->
-                        <div class="card">
-                            <!-- div img de la 4 card -->
-                            <div class="card-image">
-                                
-                                <img src="../assets/img/taza-oscars.jpg" alt="taza oscar" width="150" height="150">
-                            </div>  
-                            <!-- contenido de la 4 card -->
-                            <div class="card-data" > 
-                                <h3 class="card-title">Taza Oscars</h3>
-                                <p>Taza con dibujo de los oscar para regalar un premio al que se lo merece.</p>
-                                <input class="card-button"  type="button" name="remera" value="comprar">
-                            </div>
-                        </div>
-                    </section>  
-
-
-                        <!-- CARD 5 -->
-                        <section > 
-                            <!-- div contenedora de la 5 card -->
+                        <!-- primera card -->
+                        <section>
+                            <!-- div contenedora de la 1 card -->
                             <div class="card">
-                                <!-- div img de la 5 card -->
+                                <!-- div img de la 1 card -->
+                                <div class="card-image">
+                                    <img  src="../assets/img/llaverooscarchico.jpg" alt="llavero oscar" width="100" height="150">
+                                </div>
+                                <!-- datosde la 1 card -->
+                                <div class="card-data  ">
+                                    <h3 class="card-title">Llavero Mini Oscar</h3>
+                                    <p>Llavero miniatura de premios oscar de bronce, con tu nombre impreso</p>
+                                    <input class="card-button" type="button" name="llavero" value="comprar">
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- segunda card-->                 
+                        <section > 
+                            <!-- div contenedora de la 2 card -->
+                            <div class="card">
+                                <!-- div img de la 2 card -->
                                 <div class="card-image">
                                     
-                                    <img src="../assets/img/oscar-miniatura.png" alt="oscar miniatura" width="100" height="150">
+                                    <img src="../assets/img/posterOscarChico.jpg" alt="poster oscar" width="150" height="150">
+                                </div>
+                                <!-- contenido de la 2 card -->
+                                <div class="card-data"> 
+                                    <h3 class="card-title">Poster Oscars</h3>
+                                    <p>Poster de los premios oscar hecho de cartulina y forrado en film protector</p>
+                                    <input class="card-button" type="button" name="poster" value="comprar">
+                                </div>
+                            </div>
+                        </section>
+
+
+                        <!-- CARD 3 -->
+                        <section > 
+                            <!-- div contenedora de la 3 card -->
+                            <div class="card">
+                                <!-- div img de la 3 card -->
+                                <div class="card-image">
+                                    
+                                    <img src="../assets/img/remeraOscars.png" alt="remera oscar" width="150" height="150">
                                 </div>  
-                                <!-- contenido de la 5 card -->
+                                <!-- contenido de la 3 card -->
                                 <div class="card-data" > 
-                                    <h3 class="card-title">Replica Oscar</h3>
-                                    <p>Replica de premio oscar, con placa para dedicarselo a la persona que desees.</p>
+                                    <h3 class="card-title">Remera Oscars</h3>
+                                    <p>Remera estampada de los oscars,10 modelos distinto, todos los talles</p>
+                                    <input class="card-button"  type="button" name="remera" value="comprar">
+                                </div>
+                            </div>
+                        </section>   
+
+                        <!-- CARD 4 -->
+                        <section > 
+                            <!-- div contenedora de la 4 card -->
+                            <div class="card">
+                                <!-- div img de la 4 card -->
+                                <div class="card-image">
+                                    
+                                    <img src="../assets/img/taza-oscars.jpg" alt="taza oscar" width="150" height="150">
+                                </div>  
+                                <!-- contenido de la 4 card -->
+                                <div class="card-data" > 
+                                    <h3 class="card-title">Taza Oscars</h3>
+                                    <p>Taza con dibujo de los oscar para regalar un premio al que se lo merece.</p>
                                     <input class="card-button"  type="button" name="remera" value="comprar">
                                 </div>
                             </div>
                         </section>  
 
 
-                </div>  
+                            <!-- CARD 5 -->
+                            <section > 
+                                <!-- div contenedora de la 5 card -->
+                                <div class="card">
+                                    <!-- div img de la 5 card -->
+                                    <div class="card-image">
+                                        
+                                        <img src="../assets/img/oscar-miniatura.png" alt="oscar miniatura" width="100" height="150">
+                                    </div>  
+                                    <!-- contenido de la 5 card -->
+                                    <div class="card-data" > 
+                                        <h3 class="card-title">Replica Oscar</h3>
+                                        <p>Replica de premio oscar, con placa para dedicarselo a la persona que desees.</p>
+                                        <input class="card-button"  type="button" name="remera" value="comprar">
+                                    </div>
+                                </div>
+                            </section>  
 
 
-            </form>      
+                    </div>  
 
 
+                </form>      
+
+            </div>
 
         </main>
        
 
         <footer>
-            <div>
-                <p class="display-enlinea">Academy Awards - Marca registrada</p>
-                <ul class="display-enlinea">
+            <div class="footer">
+                <p >Academy Awards - Marca registrada</p>
+                <ul class="display-flex-row" >
                     <!-- redes sociales pie -->
-                    <li class="display-enlinea "><a  href="https://facebook.com" target="_blank" ><img class="img-header" src="../assets/img/Logo_de_Facebook.png" alt="imagen facebook" width="30" height="30"></a></li>
-                    <li class="display-enlinea"><a   href="https://instagram.com"  target="_blank"><img class="img-header" src="../assets/img/instagram.png" alt="imagen instagram" width="30" height="30"></a></li>
-                    <li class="display-enlinea  "><a  href="https://linkedin.com"  target="_blank"><img class="img-header" src="../assets/img/linkedin.png" alt="imagen linkedin" width="30" height="30"></a></li>
+                    <li  ><a  href="https://facebook.com" target="_blank" ><img class="img-header"  src="../assets/img/Logo_de_Facebook.png" alt="imagen facebook" width="30" height="30"></a></li>
+                    <li  ><a   href="https://instagram.com"  target="_blank"><img  class="img-header"  src="../assets/img/instagram.png" alt="imagen instagram" width="30" height="30"></a></li>
+                    <li ><a  href="https://linkedin.com"  target="_blank"><img class="img-header"  src="../assets/img/linkedin.png" alt="imagen linkedin" width="30" height="30"></a></li>
                 </ul>
             </div>
         </footer>

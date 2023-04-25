@@ -11,66 +11,402 @@
         <title>ultima entrega</title>
     </head>
     <body>
-        <header class="header-no-index">
-            <div>
+        <header  >
+            <div class="background-header header">
                 <!-- imagen del header -->
-                <div class="display-enlinea posicion-relativa">
+                <div  >
                     <a href="../index.html"><img class="img-header" src="../assets/img/logo-oscars.png" alt="imagen premio oscar" width="100" height="100"></a>
                 </div>    
 
                 <!-- menu del header -->
-                <nav class="display-enlinea formato-menu">
-                    <ul class="display-enlinea margen-ul">
+                <nav  >
+                    <ul class="nav">
                         <!-- elementos del muenu  -->
-                        <li class="display-enlinea"><a href="../index.html">Inicio</a></li>
-                        <li class="display-enlinea"><a href="historia.html">Historia de los premios</a></li>
-                        <li class="display-enlinea"><a href="ultimaentrega.html">Ganadores ultima entrega</a></li>
-                        <li class="display-enlinea"><a href="proximoseventos.html">Proximos eventos</a></li>
-                        <li class="display-enlinea"><a href="tienda.html">Tienda</a></li>
-                        <li class="display-enlinea"><a href="contacto.html">Contacto</a></li>
+                        <li ><a href="../index.html">Inicio</a></li>
+                        <li  ><a href="historia.html">Historia de los premios</a></li>
+                        <li class="borde-inferior" ><a class="a-seleccionado" href="ultimaentrega.html">Ganadores ultima entrega</a></li>
+                        <li  ><a href="proximoseventos.html">Proximos eventos</a></li>
+                        <li  ><a href="tienda.html">Tienda</a></li>
+                        <li ><a href="contacto.html">Contacto</a></li>
                     </ul>    
                 </nav>  
             </div>   
         </header>    
          
-        <main class="fondo-claro centrar padding-arriba-20 pading-abajo-25" >
-            <div class="div-blanco padding-arriba-20 borde">
-                <h2 class="margen-abajo">Todos los ganadores de los Oscars 2023</h2>
-                <ul>
-                    <li><u>Actor de Reparto:</u> <b> Ke Huy Quan </b>por Todo en todas partes al mismo tiempo</li>
-                    <li><u>Actriz de Reparto:</u> <b> Jamie Lee Curtis</b> por Todo en todas partes al mismo tiempo</li>
-                    <li><u>Animación:</u> <b>Pinocchio,</b> de Guillermo del Toro</li>
-                    <li><u>Largometraje documental:</u> <b>Navalny,</b> de Daniel Roher</li>
-                    <li><u>Cortometraje de Ficción:</u> <b>An Irish Goodbye,</b> de Tom Berkeley y Ross White</li>
-                    <li><u>Fotografía:</u> <b>Sin novedad en el frente</b></li>
-                    <li><u>Maquillaje y peluquería:</u> <b>La Ballena</b></li>
-                    <li><u>Vestimenta:</u> <B>Black Panther</B></li>
-                    <li><u>Película Extranjera:</u> <b>Sin novedad en el frente, de Edward Berger</b></li>
-                    <li><u>Mejor corto documental:</u> <B>El hombre que susurraba a los elefantes</B></li>
-                    <li><u>Mejor corto animado:</u> <b>El niño, el topo, el zorro y el caballo</b></li>
-                    <li><u>Diseño de Producción:</u> <b>Sin novedad en el frente</b></li>
-                    <li><u>Banda Sonora:</u> <b>Sin novedad en el frente</b></li>
-                    <li><u>Mejores efectos visuales:</u> <b>Avatar: the way of water</b></li>
-                    <li><u>Mejor guion original:</u> <b>Todo en todas partes al mismo tiempo</b></li>
-                    <li><u>Mejor guion adaptado:</u> <b> Mujeres hablando </b></li>
-                    <li><u>Mejor canción:</u> <b>“Naatu Naatu” de “RRR,”</b>. Música de M.M. Keeravaani y letra de Chandrabose.</li>
-                    <li><u>Edición:</u> <b>Todo en todas partes al mismo tiempo</b></li>
-                    <li><u>Dirección:</u> <b>Daniel Kwan y Daniel Scheinert</b> por Todo en todas partes al mismo tiempo</li>
-                    <li><u>Mejor actor principal:</u> <b>Brendan Fraser,</b> en "La ballena"</li>
-                    <li><u>Mejor actriz principal: </u> <b>Michelle Yeoh,</b> en Todo en todas partes al mismo tiempo</li>
-                    <li><u>Mejor película:</u> <b> Todo en todas partes al mismo tiempo.</b></li>
-                </ul>
+        <main>
+            <div class="display-flex-column flex-centrado-columna margen-arriba">
+                <div  class="borde-inferior color-dorado ancho-70 ">
+                    <h2  >GANADORES 2023</h2>
+                </div>
+                
+                <div class="contenedor-ganadores">
+                    <div class="card-ganadores">
+                        <h3>Pelicula</h3>
+                        <!-- div img de la 4 card -->
+                        <div class="card-image-ganadores centrar">
+                            <img class="img-gana" src="../assets/img/todo.png" alt="todo en todas"  >
+                        </div>
+                        <!-- datosde la 4 card -->
+                        <div class="card-data-ganadores  ">
+                           
+                            <h4 class="centrar">Todo en todas partes al mismo tiempo</h4>
+                             
+                           
+                        </div>
+                    </div>
+                    <div class="card-ganadores">
+                        <h3  > Mejor Actor Principal</h3>
+                        <!-- div img de la 1 card -->
+                        <div class="card-image-ganadores centrar">
+                            <img class="img-gana" src="../assets/img/brendan-fraser-winner.jpg" alt="brendan Fraser" >
+                        </div>
+                        <!-- datosde la 1 card -->
+                        <div class="card-data-ganadores">
+                            <h4>Brendan Fraser</h4>
+                            <p class="centrar">"La ballena"</p>
+                             
+                        </div>
+                    </div>
+
+                    <div class="card-ganadores">
+                        <h3  >Mejor Actriz Principal</h3>
+                        <!-- div img de la 2 card -->
+                        <div class="card-image-ganadores centrar">
+                            <img  class="img-gana " src="../assets/img/michelle-yeoh-oscar.jpg" alt="michaelle yeoh"  >
+                        </div>
+                        <!-- datosde la 2 card -->
+                        <div class="card-data-ganadores">
+                            <h4>Michelle Yeoh</h4>                        
+                            <p class="centrar">Todo en todas partes...</p>
+                             
+                        </div>
+                    </div>
+
+                    <div class="card-ganadores">
+                        <h3>Actor de Reparto</h3>
+                        <!-- div img de la 3 card -->
+                        <div class="card-image-ganadores centrar">
+                            <img  class="img-gana"  src="../assets/img/ke-huy-quan.jpg" alt="ke huy quan" >
+                        </div>
+                        <!-- datosde la 3 card -->
+                        <div class="card-data-ganadores">  
+                            <h4>Ke Huy Quan</h4>                        
+                            <p> Todo en todas partes ...</p>
+                             
+                        </div>
+                    </div>
+
+                    <div class="card-ganadores">
+                        <h3>Actriz de Reparto</h3>
+                        <!-- div img de la 4 card -->
+                        <div class="card-image-ganadores centrar">
+                            <img class="img-gana" src="../assets/img/jamei-lee.jpg" alt="jamie lee curtis"  >
+                        </div>
+                        <!-- datosde la 4 card -->
+                        <div class="card-data-ganadores  ">
+                            
+                            <h4 >Jamie Lee Curtis</h4>
+                            <p>Todo en todas partes ...</p>
+                             
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="card-ganadores">
+                        <h3>Animacion</h3>
+                        <!-- div img de la 3 card -->
+                        <div class="card-image-ganadores centrar">
+                            <img class="img-gana" src="../assets/img/pinocho.jpg" alt="pinocho"  >
+                        </div>
+                        <!-- datosde la 3 card -->
+                        <div class="card-data-ganadores  ">
+                           
+                            <h4  >Pinochio</h4>
+                            <p>Guillermo del toro</p>
+                           
+                        </div>
+                    </div>
+
+                    <div class="card-ganadores">
+                        <h3 class="centrar">Largometraje documental</h3>
+                        <!-- div img de la 4 card -->
+                        <div class="card-image-ganadores centrar">
+                            <img class="img-gana" src="../assets/img/navalny.jpg" alt="navalny"  >
+                        </div>
+                        <!-- datosde la 4 card -->
+                        <div class="card-data-ganadores  ">
+                           
+                            <h4 class="card-title">Navalny</h4>
+                            <p>Daniel Roher</p>
+                           
+                        </div>
+                    </div>
+
+                    <div class="card-ganadores">
+                        <h3 class="centrar">Cortometraje de Ficción</h3>
+                        <!-- div img de la 5 card -->
+                        <div class="card-image-ganadores centrar">
+                            <img class="img-gana" src="../assets/img/an-irish.jpg" alt="an-irish"  >
+                        </div>
+                        <!-- datosde la 5 card -->
+                        <div class="card-data-ganadores  ">
+                           
+                            <h4  >An Irish Goodbye</h4>
+                            <p class="centrar">Tom Berkeley y Ross Whit</p>
+                           
+                        </div>
+                    </div>
+
+                    <div class="card-ganadores">
+                        <h3>Fotografía</h3>
+                        <!-- div img de la 6 card -->
+                        <div class="card-image-ganadores centrar">
+                            <img class="img-gana" src="../assets/img/sin-novedad.jpg" alt="sin novedad"  >
+                        </div>
+                        <!-- datosde la 6 card -->
+                        <div class="card-data-ganadores  ">
+                           
+                            <h4>Sin novedad en el frente</h4>
+                             
+                           
+                        </div>
+                    </div>
+
+                    <div class="card-ganadores">
+                        <h3>Maquillaje y peluquería</h3>
+                        <!-- div img de la 7 card -->
+                        <div class="card-image-ganadores centrar">
+                            <img class="img-gana" src="../assets/img/La_ballena.jpg" alt="la ballena"  >
+                        </div>
+                        <!-- datosde la 7 card -->
+                        <div class="card-data-ganadores  ">
+                           
+                            <h3>La Ballena</h3>
+                             
+                           
+                        </div>
+                    </div>
+
+                    <div class="card-ganadores">
+                        <h3>Vestimenta</h3>
+                        <!-- div img de la 4 card -->
+                        <div class="card-image-ganadores centrar">
+                            <img  class="img-gana" src="../assets/img/Black_Panther.jpg" alt="blackpanter" >
+                        </div>
+                        <!-- datosde la 4 card -->
+                        <div class="card-data-ganadores ">
+                           
+                            <h3 >Blackpanter</h3>
+                             
+                           
+                        </div>
+                    </div>
+
+                    <div class="card-ganadores">
+                        <h3>Pelicula extranjera</h3>
+                        <!-- div img de la 4 card -->
+                        <div class="card-image-ganadores centrar">
+                            <img class="img-gana" src="../assets/img/sin-novedad.jpg" alt="sin novedad"  >
+                        </div>
+                        <!-- datosde la 4 card -->
+                        <div class="card-data-ganadores ">
+                           
+                            <h4>Sin novedad en el frente</h4>
+                             
+                           
+                        </div>
+                    </div>
+
+                    <div class="card-ganadores">
+                        <h3 class="centrar">Mejor corto documental</h3>
+                        <!-- div img de la 4 card -->
+                        <div class="card-image-ganadores centrar">
+                            <img class="img-gana" src="../assets/img/el-hombre.jfif" alt="el hombre que susurraba"  >
+                        </div>
+                        <!-- datosde la 4 card -->
+                        <div class="card-data-ganadores">
+                           
+                            <h4 class="centrar">El hombre que susurraba a los elefantes</h4>
+                             
+                           
+                        </div>
+                    </div>
+
+                    <div class="card-ganadores">
+                        <h3>Mejor corto animado</h3>
+                        <!-- div img de la 4 card -->
+                        <div class="card-image-ganadores centrar">
+                            <img class="img-gana" src="../assets/img/elniño-eltopo.png" alt="el niño, el topo"  >
+                        </div>
+                        <!-- datosde la 4 card -->
+                        <div class="card-data-ganadores">
+                           
+                            <h4 class="centrar">El niño, el topo, el zorro y el caballo</h4>
+                             
+                           
+                        </div>
+                    </div>
+
+                    <div class="card-ganadores">
+                        <h3>Diseño de produccion</h3>
+                        <!-- div img de la 4 card -->
+                        <div class="card-image-ganadores centrar">
+                            <img class="img-gana"  src="../assets/img/sin-novedad.jpg" alt="sin novedad" >
+                        </div>
+                        <!-- datosde la 4 card -->
+                        <div class="card-data-ganadores  ">
+                           
+                            <h4  >Sin novedad en el frente</h4>
+                             
+                           
+                        </div>
+                    </div>
+
+
+                    <div class="card-ganadores">
+                        <h3>Banda Sonora</h3>
+                        <!-- div img de la 4 card -->
+                        <div class="card-image-ganadores centrar">
+                            <img class="img-gana"  src="../assets/img/sin-novedad.jpg" alt="sin novedad"  >
+                        </div>
+                        <!-- datosde la 4 card -->
+                        <div class="card-data-ganadores  ">
+                           
+                            <h4 class="card-title">Sin novedad en el frente</h4>
+                             
+                           
+                        </div>
+                    </div>
+
+                    <div class="card-ganadores">
+                        <h3 class="centrar">Mejores efectos visuales</h3>
+                        <!-- div img de la 4 card -->
+                        <div class="card-image-ganadores centrar">
+                            <img class="img-gana" src="../assets/img/avatar2.jfif" alt="avatar 2" >
+                        </div>
+                        <!-- datosde la 4 card -->
+                        <div class="card-data-ganadores ">
+                           
+                            <h4 >Avatar 2</h4>
+                             
+                           
+                        </div>
+                    </div>
+
+                    <div class="card-ganadores">
+                        <h3>Mejor guion original</h3>
+                        <!-- div img de la 4 card -->
+                        <div class="card-image-ganadores centrar">
+                            <img class="img-gana" src="../assets/img/todo.png" alt="todo en todas" >
+                        </div>
+                        <!-- datosde la 4 card -->
+                        <div class="card-data-ganadores  ">
+                           
+                            <h4 class="centrar" >Todo en todas partes al mismo tiempo</h4>
+                             
+                           
+                        </div>
+                    </div>
+
+                    <div class="card-ganadores">
+                        <h3>Mejor guion adaptado</h3>
+                        <!-- div img de la 4 card -->
+                        <div class="card-image-ganadores centrar">
+                            <img class="img-gana" src="../assets/img/mujeres-hablando.jpg" alt="mujeres hablando" >
+                        </div>
+                        <!-- datosde la 4 card -->
+                        <div class="card-data-ganadores">
+                           
+                            <h4  >Mujeres hablando</h4>
+                             
+                           
+                        </div>
+                    </div>
+
+
+                    <div class="card-ganadores">
+                        <h3>Mejor cancion</h3>
+                        <!-- div img de la 4 card -->
+                        <div class="card-image-ganadores centrar">
+                            <img class="img-gana" src="../assets/img/llaverooscarchico.jpg" alt="llavero oscar" width="100" height="150">
+                        </div>
+                        <!-- datosde la 4 card -->
+                        <div class="card-data-ganadores  ">
+                           
+                            <h4 class="card-title">“Naatu Naatu” de “RRR”</h4>
+                             <p class="centrar">Música de M.M. Keeravaani y letra de Chandrabose.</p>
+                           
+                        </div>
+                    </div>
+
+                    <div class="card-ganadores">
+                        <h3>Edicion</h3>
+                        <!-- div img de la 4 card -->
+                        <div class="card-image-ganadores centrar">
+                            <img class="img-gana" src="../assets/img/todo.png" alt="todo en todas"  >
+                        </div>
+                        <!-- datosde la 4 card -->
+                        <div class="card-data-ganadores  ">
+                           
+                            <h4 class="centrar">Todo en todas partes al mismo tiempo</h4>
+                      
+                           
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-ganadores">
+                        <h3>Direccion</h3>
+                        <!-- div img de la 4 card -->
+                        <div class="card-image-ganadores centrar">
+                            <img class="img-gana" src="../assets/img/todo.png" alt="todo en todas"  >
+                        </div>
+                        <!-- datosde la 4 card -->
+                        <div class="card-data-ganadores  ">
+                           
+                            <h4 class="centrar">Daniel Kwan y Daniel Scheinert</h4>
+                            <p class="centrar">Todo en todas partes al mismo tiempo</p>
+                           
+                        </div>
+                    </div>
+
+                   
+                </div>
+                
+                  
+                    
+                    
+                   
+                  
+                 
+                   
+                    
+                  
+                   
+                
+                    
+                    
+                    
+                   
+                   
+                    
+                  
+                
+                 
             </div>
         </main>
        
         <footer>
-            <div>
-                <p class="display-enlinea">Academy Awards - Marca registrada</p>
-                <ul class="display-enlinea">
+            <div class="footer">
+                <p >Academy Awards - Marca registrada</p>
+                <ul class="display-flex-row" >
                     <!-- redes sociales pie -->
-                    <li class="display-enlinea "><a  href="https://facebook.com" target="_blank" ><img class="img-header" src="../assets/img/Logo_de_Facebook.png" alt="imagen facebook" width="30" height="30"></a></li>
-                    <li class="display-enlinea"><a   href="https://instagram.com"  target="_blank"><img class="img-header" src="../assets/img/instagram.png" alt="imagen instagram" width="30" height="30"></a></li>
-                    <li class="display-enlinea  "><a  href="https://linkedin.com"  target="_blank"><img class="img-header" src="../assets/img/linkedin.png" alt="imagen linkedin" width="30" height="30"></a></li>
+                    <li  ><a  href="https://facebook.com" target="_blank" ><img class="img-header"  src="../assets/img/Logo_de_Facebook.png" alt="imagen facebook" width="30" height="30"></a></li>
+                    <li  ><a   href="https://instagram.com"  target="_blank"><img  class="img-header"  src="../assets/img/instagram.png" alt="imagen instagram" width="30" height="30"></a></li>
+                    <li ><a  href="https://linkedin.com"  target="_blank"><img class="img-header"  src="../assets/img/linkedin.png" alt="imagen linkedin" width="30" height="30"></a></li>
                 </ul>
             </div>
         </footer>
