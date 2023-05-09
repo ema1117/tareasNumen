@@ -1,0 +1,51 @@
+/*clases para color y fondos*/
+.color-dorado{
+    color: rgb(199, 170, 102);
+    
+}
+
+.borde-inferior-dorado{
+    border-bottom:2px solid rgb(199, 170, 102) ;
+}
+
+.borde-dorado{
+    border:2px solid rgb(199, 170, 102) ;
+}
+
+.borde-dorado-1{
+    border:1px solid rgb(199, 170, 102) ;
+}
+
+.fondo-dorado{
+    background-color: rgba(199, 170, 102, 0.295);
+    
+}
+
+.borde-superior-dorado{
+    border-top:2px solid rgb(199, 170, 102) ;
+}
+
+.nav-link a:hover{
+    font-weight: bold;
+    color: rgb(199, 170, 102);
+}
+
+.height-768{
+    height: 750px;
+}
+
+.height-400{
+    height: 400px;
+}
+
+.height-500{
+    height: 500px;
+}
+
+.fondo-claro-gradiante{
+    background: linear-gradient(90deg, rgba(248, 244, 236,1) 0%, rgba(199,170,102,1) 100%);
+}
+
+.width-500{
+    width: 100%;
+}

@@ -751,8 +751,6 @@ fieldset label{
 }
 
 
-
-
 /*media querys */
 
 @media(max-width:1024px){
@@ -765,7 +763,9 @@ fieldset label{
     }
 
     .grid-menu{
-        margin-right: 0px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 7fr ;
+       justify-items: center;
     }
 
     .display-flex-row-between{
