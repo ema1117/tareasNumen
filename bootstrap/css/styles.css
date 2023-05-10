@@ -49,3 +49,44 @@
 .width-500{
     width: 100%;
 }
+
+
+/*MEDIAQUERYS*/
+@media(max-width:576px){
+    #header-menu{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #galeria-index{
+       display: none;
+
+    }
+
+    #section1-index{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section2-index{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar {
+        
+        justify-content: center;
+    }
+
+    .navbar-nav{
+        align-items: center;
+    }
+    
+    #footer{
+        flex-direction: column;
+        align-items: center;
+         
+    }
+
+}
