@@ -1,0 +1,22 @@
+.pie{
+    background-color: black;
+    margin: 100px 0 0 0 ;
+    padding: 0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.pie img{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.redes{
+    display: flex;
+    gap:10px;
+    margin-left: 20px;
+}

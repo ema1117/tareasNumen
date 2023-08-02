@@ -1,0 +1,38 @@
+.menu{
+    height: 80px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.menuSeleccion{
+    display: flex;
+    gap: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0 0 0 100px;
+    padding: 0;
+    
+
+}
+
+.menuSeleccion a{
+    color: black;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.menuSeleccion a:hover{
+    color: black;
+    border-bottom: 2px solid red;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.logo{
+    width: 100px;
+    height: 60px;
+}

@@ -1,0 +1,9 @@
+.galeria{
+
+    width: 1000px ;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: #f9f9f9;
+    justify-content: center;
+}

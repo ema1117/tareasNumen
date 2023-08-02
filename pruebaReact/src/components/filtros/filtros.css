@@ -1,0 +1,20 @@
+.filtros {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.filtros li{
+    text-decoration: none;
+}
+
+.filtros h2{
+    margin: 0px;
+}
+
+.filtros ul{
+    list-style: none;
+    text-align: left;
+    margin-left: 0px;
+    padding-left: 0px;
+}
